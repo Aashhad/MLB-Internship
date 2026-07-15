@@ -1,0 +1,3 @@
+I  do task of File Handling.
+I learned modes of File Handling
+also learn with statement

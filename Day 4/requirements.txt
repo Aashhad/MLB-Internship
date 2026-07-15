@@ -1,0 +1,2 @@
+NumPy Version: 2.5.1
+Pandas Version: 3.0.3

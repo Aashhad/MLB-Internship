@@ -1,0 +1,26 @@
+[
+    {
+        "roll": 101,
+        "name": "Ashhad",
+        "age": 23,
+        "city": "Lahore"
+    },
+    {
+        "roll": 102,
+        "name": "Muhammad",
+        "age": 21,
+        "city": "RYK"
+    },
+    {
+        "roll": 103,
+        "name": "Haziq",
+        "age": 23,
+        "city": "lahore"
+    },
+    {
+        "name": "Ashhad",
+        "roll": "34",
+        "age": 23,
+        "course": "AI"
+    }
+]
