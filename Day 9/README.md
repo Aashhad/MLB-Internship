@@ -125,16 +125,25 @@ Day 9/
 ├── pcaKmeans.py
 ├── README.md
 └── requirements.txt
+```
+
+---
 
 ## Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
 
 ## Conclusion
 
-This project demonstrated how K-Means Clustering can group similar data points and how PCA can reduce dimensionality for effective visualization. The Elbow Method identified K = 3 as the optimal number of clusters. PCA reduced the four-dimensional Iris dataset to two dimensions, making the clustering results easier to visualize and interpret.
+This project demonstrated how K-Means Clustering can group similar data points and how PCA can reduce dimensionality for effective visualization. The Elbow Method identified **K = 3** as the optimal number of clusters. PCA reduced the four-dimensional Iris dataset to two dimensions, making the clustering results easier to visualize and interpret.
 
+# 👨‍💻 Author
+
+**Muhammad Ashhad**
