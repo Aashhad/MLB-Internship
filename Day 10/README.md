@@ -154,9 +154,8 @@ The model was evaluated using:
 ### Accuracy Results
 
 ```text
-Final Training Accuracy: [Add Your Result]
-Final Validation Accuracy: [Add Your Result]
-Final Testing Accuracy: [Add Your Result]
+Final Training Accuracy: [0.9102]
+Final Validation Accuracy: [0.8835
 ```
 
 The project also includes a **Training vs Validation Accuracy** graph to visualize the model's performance during training.
