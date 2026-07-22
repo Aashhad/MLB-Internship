@@ -94,13 +94,8 @@ axes[1].set_title("Tuned Logistic Regression")
 axes[1].set_xlabel("Predicted Label")
 axes[1].set_ylabel("True Label")
 
-# Adjust layout
+
 plt.tight_layout()
-
-# Save figure
 plt.savefig("Day 8/confusion_matrix_comparison.png", dpi=300)
-
-# Display figure
 plt.show()
-
 print("Succesfully saved as 'Day 8/confusion_matrix_comparison.png'")
