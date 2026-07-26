@@ -1,4 +1,4 @@
-#DAY 12 🐱🐶 Cats vs Dogs Image Classifier Using Transfer Learning
+#🐱🐶 Cats vs Dogs Image Classifier Using Transfer Learning
 
 ## 📌 Project Overview
 
