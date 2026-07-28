@@ -307,43 +307,10 @@ The Gradio app provides a simple and user-friendly way to interact with the YOLO
 - **OpenCV**
 - **Matplotlib**
 
+
 ---
 
-# 📂 Project Structure
-
-The project is organized as follows:
-
-```text
-Day 13/
-│
-├── images/
-│   ├── cat.jpg
-│   ├── dog.jpg
-│   └── street.jpg
-│
-├── outputs/
-│   ├── _grid_preview.png
-│   ├── cat_result.jpg
-│   ├── detected_bus.jpg
-│   ├── detected_car.jpg
-│   ├── detected_cycle.jpg
-│   ├── detected_motorcycle.jpg
-│   ├── detected_train.jpg
-│   ├── detected_truck.jpg
-│   ├── dog_result.jpg
-│   └── street_result.jpg
-│
-├── sample_images/
-│   ├── bus.jpg
-│   ├── car.jpg
-│   ├── cycle.jpg
-│   ├── motorcycle.jpg
-│   ├── train.jpg
-│   └── truck.jpg
-│
-├── app.py
-├── objectDetectionYOLO.py
-└── vehicleDetection.py
-
-👨‍💻 Author
+- 👨‍💻 Author
 Muhammad Ashhad
+
+
