@@ -1,4 +1,4 @@
-# Day-14: Image Processing Toolkit using OpenCV
+# Day-14: Image Processing Toolkit using OpenCV 
 
 ## 📌 Project Overview
 
