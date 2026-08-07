@@ -38,7 +38,7 @@ for i in range(10):
     plt.title(class_names[y_train[i]])
     plt.axis("off")
 plt.tight_layout()
-plt.savefig("Day 11/generatedImages/checking_sample_predictions.png")
+plt.savefig("Day 11/genratedImages/checking_sample_predictions.png")
 plt.show()
 
 # normalize the images
@@ -104,7 +104,7 @@ plt.ylabel("Loss")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("Day 11/generatedImages/Training Accuracy and Loss graph.png")
+plt.savefig("Day 11/genratedImages/Accuracy_and_Loss.png")
 plt.show()
 
 
@@ -123,7 +123,7 @@ for i in range(10):
     plt.title(f"P:{predicted}\nA:{actual}")
     plt.axis("off")
 plt.tight_layout()
-plt.savefig("Day 11/generatedImages/sample_predictions.png")
+plt.savefig("Day 11/genratedImages/Sample_Predictions.png")
 plt.show()
 
 # confusion matrix
@@ -143,7 +143,7 @@ sns.heatmap(
 plt.xlabel("Predicted Label")
 plt.ylabel("True Label")
 plt.title("Confusion Matrix")
-plt.savefig("Day 11/generatedImages/Confusion_matrix.png") 
+plt.savefig("Day 11/genratedImages/Confusion_Matrix.png") 
 plt.show()
 
 
@@ -157,7 +157,7 @@ for i,index in enumerate(correct[:10]):
     plt.title(class_names[predicted_labels[index]])
     plt.axis("off")
 plt.tight_layout()
-plt.savefig("Day 11/generatedImages/correct_predictions.png")
+plt.savefig("Day 11/genratedImages/Correct_Predictions.png")
 plt.show()
 
 # show incorrect predictions
@@ -173,6 +173,6 @@ for i,index in enumerate(incorrect[:10]):
     )
     plt.axis("off")
 plt.tight_layout()
-plt.savefig("Day 11/generatedImages/incorrect_predictions.png")
+plt.savefig("Day 11/genratedImages/Incorrect_Predictions.png")
 plt.show()
 
