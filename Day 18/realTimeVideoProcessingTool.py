@@ -47,7 +47,7 @@ def process_frame(frame, blur_ksize=5, canny_low=50, canny_high=150, show_mode="
     blurred = cv2.GaussianBlur(gray, (k, k), 0)
 
     # Canny Edge Detection
-    edges = cv2.Canny( blurred, int(canny_low), int(canny_high ))
+    edges = cv2.Canny(blurred, int(canny_low), int(canny_high))
 
     if show_mode == "Grayscale":
         out = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)

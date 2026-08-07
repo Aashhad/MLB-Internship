@@ -16,7 +16,7 @@ def process_video(video_file):
     video_path = video_file
 
     # Video Name
-    video_name = os.path.splitext( os.path.basename(video_path ))[0]
+    video_name = os.path.splitext(os.path.basename(video_path))[0]
     output_path = os.path.join(OUTPUT_FOLDER,f"{video_name}_processed.mp4")
 
     # Open Video
