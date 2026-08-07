@@ -175,4 +175,3 @@ for i,index in enumerate(incorrect[:10]):
 plt.tight_layout()
 plt.savefig("Day 11/genratedImages/Incorrect_Predictions.png")
 plt.show()
-

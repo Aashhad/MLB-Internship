@@ -1,3 +1,4 @@
+
 # This script:
 # 1. Loads a pretrained YOLOv8 model
 # 2. Detects vehicles in sample_images
