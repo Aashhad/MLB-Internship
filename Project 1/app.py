@@ -11,9 +11,7 @@ from src.occupancyDecision import (
 
 from src.visualization import draw
 
-# ==========================================================
 # PATHS
-# ==========================================================
 
 PROJECT_DIR = "Project 1"
 
@@ -37,18 +35,14 @@ OUTPUT_FOLDER = os.path.join(
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# ==========================================================
 # LOAD PARKING SLOTS
-# ==========================================================
 
 with open(ANNOTATION_PATH, "r") as file:
     parking_slots = json.load(file)
 
 print(f"Loaded {len(parking_slots)} parking slots.")
 
-# ==========================================================
 # LOAD INPUT IMAGES
-# ==========================================================
 
 sample_images = []
 
@@ -71,9 +65,7 @@ image_map = {
 
 print(f"Loaded {len(sample_images)} images.")
 
-# ==========================================================
 # SHOW INPUT IMAGE
-# ==========================================================
 
 def show_input_image(image_name):
 
@@ -88,9 +80,7 @@ def show_input_image(image_name):
 
     return image, path
 
-# ==========================================================
 # ANALYZE
-# ==========================================================
 
 def analyze_parking(image_path, threshold):
 
@@ -152,9 +142,7 @@ def analyze_parking(image_path, threshold):
 
     return result, report
 
-# ==========================================================
 # UI
-# ==========================================================
 
 with gr.Blocks(
     title="Smart Parking Lot Occupancy Analyzer",
@@ -166,7 +154,11 @@ with gr.Blocks(
 
 Select an image, adjust the threshold and click **Analyze Parking**.
 
-The processed image will automatically be saved inside **outputImages**.
+### Instructions
+1. Select an image from the gallery.
+2. Adjust the edge density threshold.
+3. Click **Analyze Parking**.
+4. The processed image is automatically saved to the **outputImages** folder.
 
 **Developed by Muhammad Ashhad**
 """)
