@@ -1,6 +1,6 @@
 # 🎥 Real-Time Video Processing Tool
 
-A Gradio-based Computer Vision application that processes both uploaded videos and live webcam streams using OpenCV.
+A Gradio-based Computer Vision application that processes both uploaded videos and live webcam streams using OpenCV. 
 
 ## 🚀 Features
 
