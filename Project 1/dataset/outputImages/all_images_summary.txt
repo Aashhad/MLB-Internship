@@ -1,0 +1,46 @@
+SMART PARKING LOT OCCUPANCY ANALYZER
+ALL IMAGES SUMMARY
+==========================================
+
+Image: image (1).jpg
+Total Slots: 292
+Occupied: 88
+Vacant: 204
+Occupancy: 30.1%
+Threshold: 0.1000
+------------------------------------------
+Image: image (2).jpg
+Total Slots: 292
+Occupied: 29
+Vacant: 263
+Occupancy: 9.9%
+Threshold: 0.1000
+------------------------------------------
+Image: image (3).jpg
+Total Slots: 292
+Occupied: 269
+Vacant: 23
+Occupancy: 92.1%
+Threshold: 0.1000
+------------------------------------------
+Image: image (4).jpg
+Total Slots: 292
+Occupied: 113
+Vacant: 179
+Occupancy: 38.7%
+Threshold: 0.1000
+------------------------------------------
+Image: image (5).jpg
+Total Slots: 292
+Occupied: 260
+Vacant: 32
+Occupancy: 89.0%
+Threshold: 0.1000
+------------------------------------------
+Image: image (6).jpg
+Total Slots: 292
+Occupied: 243
+Vacant: 49
+Occupancy: 83.2%
+Threshold: 0.1000
+------------------------------------------
