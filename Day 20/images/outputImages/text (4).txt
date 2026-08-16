@@ -1,0 +1,42 @@
+Imvoicimg
+Your Busimess Name
+Template c@m
+Business Address:
+'Business City, State,ZIP
+Business Contact
+TAX IVDICE
+BILLTO
+Ship To [ Job Addr:
+P.o. #'
+Sales Rep- Name
+Terms"
+Due Date
+ROB
+Net 30
+#4 Taxable]
+Description ,
+[Quantity]Unit Price   %Discount
+Line Total
+[P1oo'
+Lawn care.
+1
+100.00
+20.00%
+80.00.
+1
+SUBTOTAL
+80.00
+'G;ST,
+10.000%|
+8.00
+SHIPPING & HANDLING]
+ABN xxxxxxxxxxx:
+TOTAL 
+88.00'
+EFT PAYMENTS WESTPAC:
+{PAiD
+BSB: xxx xxx:
+'ACC NO:xxxxX
+TOTAL DUE}
+88.00"
+THANK: YOU FOR YOUR BUSINESSI

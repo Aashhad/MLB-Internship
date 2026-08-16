@@ -1,0 +1,14 @@
+Text translation: OCR Editor provides text translation features,
+allowing users to translate the extracted text into different
+languages.
+How to use OCR Editor:
+Install the extension: To use OCR Converter you first need to
+install the extension from the Chrome Web Store, Firefox Add-ons
+Store, or Opera Add-ons Store:
+Open the webpage or image: Once you have installed the
+extension, you can open the webpage or image from which you want
+to extract text:
+Select the text: To extract text from an image, you can simply
+right-click on the image and select "OCR Editor" from the context
+menu: To extract text from a webpage, You can simply click the OCR
+Editor icon in your browsers toolbar:
