@@ -15,7 +15,7 @@ Feature Detection and Feature Matching are important Computer Vision techniques 
 
 ---
 
-## 🔹 Feature Detection
+## 🔹 Feature Detection 
 
 ### What are Image Features?
 
