@@ -10,7 +10,7 @@ This project analyzes parking lot images captured from a fixed overhead camera a
 
 The system provides:
 
-- 🅿️ Automatic parking occupancy detection
+- 🅿️ Automatic parking occupancy detection 
 - 📊 Total parking slot count
 - 🔴 Occupied parking slot count
 - 🟢 Vacant parking slot count
