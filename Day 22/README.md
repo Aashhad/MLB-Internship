@@ -13,7 +13,7 @@ The implemented methods are:
 * Otsu Thresholding
 * Foreground/Background Segmentation
 * Morphological Cleaning
-* Main Object Detection
+* Main Object Detection 
 * Transparent Background Extraction
 
 The application also provides a Gradio interface where users can upload an image or select sample images and view the results of different segmentation methods.
