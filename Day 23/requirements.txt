@@ -1,0 +1,6 @@
+Python
+YOLO
+BoT-SORT
+OpenCV
+Gradio
+FFmpeg
