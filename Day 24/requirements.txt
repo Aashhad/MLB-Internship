@@ -1,0 +1,9 @@
+Python
+YOLOv8
+Ultralytics
+Roboflow
+GoogleColab
+OpenCV
+NumPy
+Pillow
+Gradio
