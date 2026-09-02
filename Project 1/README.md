@@ -10,7 +10,7 @@ This project analyzes parking lot images captured from a fixed overhead camera a
 
 The system provides:
 
-- 🅿️ Automatic parking occupancy detection
+- 🅿️ Automatic parking occupancy detection 
 - 📊 Total parking slot count
 - 🔴 Occupied parking slot count
 - 🟢 Vacant parking slot count
@@ -304,3 +304,7 @@ The parking slot annotations must correspond to the same camera view used during
 The objective of this project is to build a practical **Computer Vision-based Smart Parking Lot Occupancy Analyzer** using traditional image processing techniques.
 
 The system demonstrates how OpenCV can be used to detect parking occupancy efficiently from aerial images while providing an intuitive Gradio interface for real-time analysis and visualization.
+
+# 👨‍💻 Author
+
+**Muhammad Ashhad**
