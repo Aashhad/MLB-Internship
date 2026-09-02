@@ -2,7 +2,7 @@ Python
 YOLOv8
 Ultralytics
 Roboflow
-GoogleColab
+Google Colab
 OpenCV
 NumPy
 Pillow

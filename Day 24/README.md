@@ -425,6 +425,5 @@ This project demonstrates the complete workflow of a custom object detection sys
 
 The trained model can detect cups in both sample images and new images uploaded through the Gradio application. Future improvements will focus on increasing dataset size and diversity, improving annotation quality, and adding more challenging real-world examples.
 
-## 👨‍💻 Author
-## Muhammad Ashhad
-
+```
+```
