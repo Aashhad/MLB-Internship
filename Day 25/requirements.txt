@@ -1,0 +1,6 @@
+Python
+FastAPI
+Pydantic
+Uvicorn
+JSON
+Swagger-OpenAPI
