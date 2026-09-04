@@ -4,10 +4,4 @@ ultralytics
 opencv-python
 numpy
 python-multipart
-pydanticfastapi
-uvicorn
-ultralytics
-opencv-python
-numpy
-python-multipart
 pydantic
