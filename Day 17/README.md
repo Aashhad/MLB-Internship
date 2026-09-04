@@ -1,4 +1,4 @@
-# Shape Detection System using OpenCV
+# Shape Detection System using OpenCV 
 
 ## 📌 Project Overview
 
