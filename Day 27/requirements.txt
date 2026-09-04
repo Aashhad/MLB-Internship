@@ -1,0 +1,6 @@
+Python
+FastAPI
+YOLO-Ultralytics
+OpenCV
+NumPy
+Uvicorn
