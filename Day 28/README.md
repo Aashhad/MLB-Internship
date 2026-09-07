@@ -687,5 +687,4 @@ The use of unique `request_id` and `job_id` values also makes it easier to trace
 
 ```
 
-This version matches the validation features in the code you provided and is suitable as your **Day 28 `README.md`**.
 ```
