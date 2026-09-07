@@ -1,0 +1,13 @@
+2026-09-07 23:14:24,287 | INFO | app.routes.video | Video upload received | filename=running.mp4
+2026-09-07 23:14:50,123 | INFO | app.routes.video | Video upload received | filename=Screen Recording 2026-08-26 221812.mp4
+2026-09-07 23:16:01,124 | INFO | app.routes.video | Video upload received | filename=crowd.mp4
+2026-09-07 23:18:31,631 | INFO | app.routes.video | Video upload received | filename=running.mp4
+2026-09-07 23:19:10,046 | INFO | app.routes.video | Video upload received | filename=running.mp4
+2026-09-07 23:19:10,077 | INFO | app.routes.video | Job created | job_id=050bd82e-873c-4644-9580-d40dfc55af6a
+2026-09-07 23:19:10,077 | INFO | app.routes.video | Request completed | job_id=050bd82e-873c-4644-9580-d40dfc55af6a | request_time=0.03
+2026-09-07 23:19:10,079 | INFO | app.routes.video | Background job started | job_id=050bd82e-873c-4644-9580-d40dfc55af6a
+2026-09-07 23:19:10,098 | INFO | app.services.video_processor | Starting video processing | input=C:\Users\ART\OneDrive\Desktop\ML Bench Internship\Day 29\videos\input\050bd82e-873c-4644-9580-d40dfc55af6a.mp4
+2026-09-07 23:19:37,077 | INFO | app.services.video_processor | Video processing completed | frames=245 | detections=919 | processing_time=26.98 seconds
+2026-09-07 23:19:37,094 | INFO | app.routes.video | Job completed | job_id=050bd82e-873c-4644-9580-d40dfc55af6a
+2026-09-07 23:21:13,013 | INFO | app.routes.video | Video upload received | filename=Screenshot 2026-07-28 184755.png
+2026-09-07 23:21:13,013 | WARNING | app.routes.video | Invalid video format | filename=Screenshot 2026-07-28 184755.png

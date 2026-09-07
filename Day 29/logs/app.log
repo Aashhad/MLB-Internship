@@ -1,0 +1,4 @@
+2026-09-07 23:04:24,610 | INFO | app.routes.video | Job created | job_id=c91e308f-c745-41e9-ba89-7d7202f73fed | filename=crowd.mp4
+2026-09-07 23:04:24,610 | INFO | app.services.video_processor | Processing started | job_id=c91e308f-c745-41e9-ba89-7d7202f73fed
+2026-09-07 23:04:43,324 | INFO | app.services.video_processor | Processing completed | job_id=c91e308f-c745-41e9-ba89-7d7202f73fed | time=18.70s | detections=0
+2026-09-07 23:05:03,535 | INFO | app.routes.jobs | Retrieved 1 jobs
