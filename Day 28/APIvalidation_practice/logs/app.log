@@ -1,0 +1,39 @@
+2026-09-07 15:20:19,051 | INFO | APIvalidation_practice.middleware | Request started | request_id=ab5be0c6-7b4a-4a72-b3c2-4b57ee719a1d | method=GET | path=/
+2026-09-07 15:20:19,055 | INFO | APIvalidation_practice.middleware | Request completed | request_id=ab5be0c6-7b4a-4a72-b3c2-4b57ee719a1d | status_code=200 | duration=0.005s
+2026-09-07 15:20:23,822 | INFO | APIvalidation_practice.middleware | Request started | request_id=159a9b9a-eec1-4c3f-a071-d1dd13404e55 | method=GET | path=/docs
+2026-09-07 15:20:23,822 | INFO | APIvalidation_practice.middleware | Request completed | request_id=159a9b9a-eec1-4c3f-a071-d1dd13404e55 | status_code=200 | duration=0.001s
+2026-09-07 15:20:23,915 | INFO | APIvalidation_practice.middleware | Request started | request_id=ed48a7b1-7343-4665-a10f-9bb7a0c4e1cc | method=GET | path=/openapi.json
+2026-09-07 15:20:23,920 | INFO | APIvalidation_practice.middleware | Request completed | request_id=ed48a7b1-7343-4665-a10f-9bb7a0c4e1cc | status_code=200 | duration=0.005s
+2026-09-07 15:20:30,687 | INFO | APIvalidation_practice.middleware | Request started | request_id=015c4990-e036-414b-815d-71a4c7a4b6f9 | method=POST | path=/video/process
+2026-09-07 15:20:30,732 | INFO | APIvalidation_practice.routes.video | Video job created | request_id=015c4990-e036-414b-815d-71a4c7a4b6f9 | job_id=460c6f6d-bad5-41b9-833c-70cef66d2621 | filename=road crossing.mp4 | size=7844362 | confidence=0.25
+2026-09-07 15:20:30,732 | INFO | APIvalidation_practice.services.video_processor | Video processing started | job_id=460c6f6d-bad5-41b9-833c-70cef66d2621 | input=460c6f6d-bad5-41b9-833c-70cef66d2621.mp4
+2026-09-07 15:21:37,559 | INFO | APIvalidation_practice.services.video_processor | Video processing completed | job_id=460c6f6d-bad5-41b9-833c-70cef66d2621 | frames=600 | duration=66.819s
+2026-09-07 15:21:37,559 | INFO | APIvalidation_practice.middleware | Request completed | request_id=015c4990-e036-414b-815d-71a4c7a4b6f9 | status_code=200 | duration=66.877s
+2026-09-07 15:24:35,504 | INFO | APIvalidation_practice.middleware | Request started | request_id=61527ec1-7b81-4906-88c9-a597d05171a1 | method=GET | path=/
+2026-09-07 15:24:35,510 | INFO | APIvalidation_practice.middleware | Request completed | request_id=61527ec1-7b81-4906-88c9-a597d05171a1 | status_code=200 | duration=0.005s
+2026-09-07 15:24:42,106 | INFO | APIvalidation_practice.middleware | Request started | request_id=8767c440-a4ed-4be6-9950-a11d949a541b | method=GET | path=/docs
+2026-09-07 15:24:42,111 | INFO | APIvalidation_practice.middleware | Request completed | request_id=8767c440-a4ed-4be6-9950-a11d949a541b | status_code=200 | duration=0.001s
+2026-09-07 15:24:42,203 | INFO | APIvalidation_practice.middleware | Request started | request_id=2cdd9976-f83d-4bea-9795-814e0e53bea3 | method=GET | path=/openapi.json
+2026-09-07 15:24:42,208 | INFO | APIvalidation_practice.middleware | Request completed | request_id=2cdd9976-f83d-4bea-9795-814e0e53bea3 | status_code=200 | duration=0.005s
+2026-09-07 15:24:53,180 | INFO | APIvalidation_practice.middleware | Request started | request_id=11232dbf-7f4a-49bf-96ff-7e7b0583c54b | method=POST | path=/video/process
+2026-09-07 15:24:53,220 | INFO | APIvalidation_practice.routes.video | Video job created | request_id=11232dbf-7f4a-49bf-96ff-7e7b0583c54b | job_id=643712ed-c893-448a-91cd-042552bb98e8 | filename=road crossing.mp4 | size=7844362 | confidence=0.25
+2026-09-07 15:24:53,220 | INFO | APIvalidation_practice.services.video_processor | Video processing started | job_id=643712ed-c893-448a-91cd-042552bb98e8 | input=643712ed-c893-448a-91cd-042552bb98e8.mp4
+2026-09-07 15:26:01,812 | INFO | APIvalidation_practice.services.video_processor | Video processing completed | job_id=643712ed-c893-448a-91cd-042552bb98e8 | frames=600 | duration=68.581s
+2026-09-07 15:26:01,814 | INFO | APIvalidation_practice.routes.video | Video processing completed | request_id=11232dbf-7f4a-49bf-96ff-7e7b0583c54b | job_id=643712ed-c893-448a-91cd-042552bb98e8
+2026-09-07 15:26:01,814 | INFO | APIvalidation_practice.middleware | Request completed | request_id=11232dbf-7f4a-49bf-96ff-7e7b0583c54b | status_code=200 | duration=68.634s
+2026-09-07 15:27:23,476 | INFO | APIvalidation_practice.middleware | Request started | request_id=0cccdfd6-25ad-469f-9d09-5ca1dc7ce881 | method=GET | path=/video/jobs/643712ed-c893-448a-91cd-042552bb98e8
+2026-09-07 15:27:23,476 | WARNING | APIvalidation_practice.routes.video | Invalid job ID | request_id=0cccdfd6-25ad-469f-9d09-5ca1dc7ce881 | job_id=643712ed-c893-448a-91cd-042552bb98e8
+2026-09-07 15:27:23,476 | WARNING | APIvalidation_practice.main | Application error | request_id=0cccdfd6-25ad-469f-9d09-5ca1dc7ce881 | status=404 | error=Job not found.
+2026-09-07 15:27:23,476 | INFO | APIvalidation_practice.middleware | Request completed | request_id=0cccdfd6-25ad-469f-9d09-5ca1dc7ce881 | status_code=404 | duration=0.004s
+2026-09-07 15:28:00,413 | INFO | APIvalidation_practice.middleware | Request started | request_id=4aaef53b-488c-41c8-bda0-539648c79561 | method=GET | path=/video/jobs/643712ed-c893-448a-91cd-042552bb98e8
+2026-09-07 15:28:00,419 | WARNING | APIvalidation_practice.routes.video | Invalid job ID | request_id=4aaef53b-488c-41c8-bda0-539648c79561 | job_id=643712ed-c893-448a-91cd-042552bb98e8
+2026-09-07 15:28:00,419 | WARNING | APIvalidation_practice.main | Application error | request_id=4aaef53b-488c-41c8-bda0-539648c79561 | status=404 | error=Job not found.
+2026-09-07 15:28:00,419 | INFO | APIvalidation_practice.middleware | Request completed | request_id=4aaef53b-488c-41c8-bda0-539648c79561 | status_code=404 | duration=0.007s
+2026-09-07 15:28:48,161 | INFO | APIvalidation_practice.middleware | Request started | request_id=2e2e423c-12b3-4d20-b35f-ec77d017d1ae | method=POST | path=/video/process
+2026-09-07 15:28:48,238 | INFO | APIvalidation_practice.routes.video | Video job created | request_id=2e2e423c-12b3-4d20-b35f-ec77d017d1ae | job_id=2ac59e00-1993-4693-9112-d5bc90c7eb04 | filename=Screen Recording 2026-08-24 171058.mp4 | size=5147670 | confidence=0.25
+2026-09-07 15:28:48,238 | INFO | APIvalidation_practice.services.video_processor | Video processing started | job_id=2ac59e00-1993-4693-9112-d5bc90c7eb04 | input=2ac59e00-1993-4693-9112-d5bc90c7eb04.mp4
+2026-09-07 15:29:06,746 | INFO | APIvalidation_practice.services.video_processor | Video processing completed | job_id=2ac59e00-1993-4693-9112-d5bc90c7eb04 | frames=149 | duration=18.506s
+2026-09-07 15:29:06,747 | INFO | APIvalidation_practice.routes.video | Video processing completed | request_id=2e2e423c-12b3-4d20-b35f-ec77d017d1ae | job_id=2ac59e00-1993-4693-9112-d5bc90c7eb04
+2026-09-07 15:29:06,748 | INFO | APIvalidation_practice.middleware | Request completed | request_id=2e2e423c-12b3-4d20-b35f-ec77d017d1ae | status_code=200 | duration=18.587s
+2026-09-07 15:29:23,745 | INFO | APIvalidation_practice.middleware | Request started | request_id=c930d82f-c284-4a8c-a4a4-4446b261984d | method=GET | path=/video/jobs/2ac59e00-1993-4693-9112-d5bc90c7eb04
+2026-09-07 15:29:23,746 | INFO | APIvalidation_practice.middleware | Request completed | request_id=c930d82f-c284-4a8c-a4a4-4446b261984d | status_code=200 | duration=0.001s

@@ -1,0 +1,59 @@
+2026-09-07 14:11:28,836 | INFO | app.middleware | Request started | request_id=req_dc2e2ae076b2 | method=GET | path=/
+2026-09-07 14:11:28,958 | INFO | app.middleware | Request completed | request_id=req_dc2e2ae076b2 | status=200 | duration=0.121s
+2026-09-07 14:11:29,229 | INFO | app.middleware | Request started | request_id=req_0c4ed5f3b71d | method=GET | path=/favicon.ico
+2026-09-07 14:11:29,239 | INFO | app.middleware | Request completed | request_id=req_0c4ed5f3b71d | status=404 | duration=0.010s
+2026-09-07 14:13:13,937 | INFO | app.middleware | Request started | request_id=req_bfe125a4df70 | method=GET | path=/
+2026-09-07 14:13:13,937 | INFO | app.middleware | Request completed | request_id=req_bfe125a4df70 | status=200 | duration=0.004s
+2026-09-07 14:13:18,732 | INFO | app.middleware | Request started | request_id=req_74130d8fed57 | method=GET | path=/health
+2026-09-07 14:13:18,732 | INFO | app.middleware | Request completed | request_id=req_74130d8fed57 | status=200 | duration=0.001s
+2026-09-07 14:13:22,889 | INFO | app.middleware | Request started | request_id=req_4cd3027412bc | method=GET | path=/docs
+2026-09-07 14:13:22,890 | INFO | app.middleware | Request completed | request_id=req_4cd3027412bc | status=200 | duration=0.001s
+2026-09-07 14:13:23,386 | INFO | app.middleware | Request started | request_id=req_c88dcdbefe09 | method=GET | path=/openapi.json
+2026-09-07 14:13:23,399 | INFO | app.middleware | Request completed | request_id=req_c88dcdbefe09 | status=200 | duration=0.013s
+2026-09-07 14:13:32,517 | INFO | app.middleware | Request started | request_id=req_66aaebeec559 | method=POST | path=/video/process
+2026-09-07 14:13:32,546 | INFO | app.routes.video | Video upload received | request_id=req_66aaebeec559 | job_id=job_18a538fa9931
+2026-09-07 14:13:32,546 | INFO | app.routes.video | Video accepted for processing | request_id=req_66aaebeec559 | job_id=job_18a538fa9931
+2026-09-07 14:13:32,546 | INFO | app.middleware | Request completed | request_id=req_66aaebeec559 | status=200 | duration=0.036s
+2026-09-07 14:13:32,546 | INFO | app.services.video_processor | Job started | job_id=job_18a538fa9931 | request_id=req_66aaebeec559
+2026-09-07 14:13:56,244 | INFO | app.services.video_processor | Processing completed | job_id=job_18a538fa9931 | request_id=req_66aaebeec559 | frames=201/201 | duration=23.692s
+2026-09-07 14:13:56,244 | INFO | app.routes.video | Job finished successfully | job_id=job_18a538fa9931 | request_id=req_66aaebeec559
+2026-09-07 14:31:56,346 | INFO | app.middleware | Request started | request_id=req_e7f904efbd50 | method=POST | path=/video/process
+2026-09-07 14:31:56,794 | INFO | app.routes.video | Video upload received | request_id=req_e7f904efbd50 | job_id=job_b6ca288b5024
+2026-09-07 14:31:56,830 | INFO | app.routes.video | Video accepted for processing | request_id=req_e7f904efbd50 | job_id=job_b6ca288b5024
+2026-09-07 14:31:56,830 | INFO | app.middleware | Request completed | request_id=req_e7f904efbd50 | status=200 | duration=0.490s
+2026-09-07 14:31:56,830 | INFO | app.services.video_processor | Job started | job_id=job_b6ca288b5024 | request_id=req_e7f904efbd50
+2026-09-07 14:32:37,572 | INFO | app.middleware | Request started | request_id=req_ff6450afd758 | method=POST | path=/video/process
+2026-09-07 14:32:37,577 | WARNING | app.main | Request validation failed | request_id=req_ff6450afd758 | errors=[{'type': 'value_error', 'loc': ('body', 'file'), 'msg': "Value error, Expected UploadFile, received: <class 'str'>", 'input': 'Ã\x16Ë\x85È{TÀÈswxü\x93$öÇK\x922\x88õý½º', 'ctx': {'error': ValueError("Expected UploadFile, received: <class 'str'>")}}]
+2026-09-07 14:32:37,582 | INFO | app.middleware | Request completed | request_id=req_ff6450afd758 | status=422 | duration=0.010s
+2026-09-07 14:32:46,679 | INFO | app.middleware | Request started | request_id=req_36cfcb145844 | method=POST | path=/video/process
+2026-09-07 14:32:46,680 | WARNING | app.main | Request validation failed | request_id=req_36cfcb145844 | errors=[{'type': 'value_error', 'loc': ('body', 'file'), 'msg': "Value error, Expected UploadFile, received: <class 'str'>", 'input': 'Ã\x16Ë\x85È{TÀÈswxü\x93$öÇK\x922\x88õý½º', 'ctx': {'error': ValueError("Expected UploadFile, received: <class 'str'>")}}]
+2026-09-07 14:32:46,682 | INFO | app.middleware | Request completed | request_id=req_36cfcb145844 | status=422 | duration=0.003s
+2026-09-07 14:32:54,594 | INFO | app.middleware | Request started | request_id=req_62aadf245b2f | method=POST | path=/video/process
+2026-09-07 14:32:54,596 | WARNING | app.main | Request validation failed | request_id=req_62aadf245b2f | errors=[{'type': 'value_error', 'loc': ('body', 'file'), 'msg': "Value error, Expected UploadFile, received: <class 'str'>", 'input': 'Ã\x16Ë\x85È{TÀÈswxü\x93$öÇK\x922\x88õý½º', 'ctx': {'error': ValueError("Expected UploadFile, received: <class 'str'>")}}]
+2026-09-07 14:32:54,596 | INFO | app.middleware | Request completed | request_id=req_62aadf245b2f | status=422 | duration=0.003s
+2026-09-07 14:32:55,472 | INFO | app.middleware | Request started | request_id=req_4c4efdbc3135 | method=POST | path=/video/process
+2026-09-07 14:32:55,473 | WARNING | app.main | Request validation failed | request_id=req_4c4efdbc3135 | errors=[{'type': 'value_error', 'loc': ('body', 'file'), 'msg': "Value error, Expected UploadFile, received: <class 'str'>", 'input': 'Ã\x16Ë\x85È{TÀÈswxü\x93$öÇK\x922\x88õý½º', 'ctx': {'error': ValueError("Expected UploadFile, received: <class 'str'>")}}]
+2026-09-07 14:32:55,474 | INFO | app.middleware | Request completed | request_id=req_4c4efdbc3135 | status=422 | duration=0.002s
+2026-09-07 14:33:00,022 | INFO | app.middleware | Request started | request_id=req_b3d8a4cd4779 | method=POST | path=/video/process
+2026-09-07 14:33:00,024 | WARNING | app.main | Request validation failed | request_id=req_b3d8a4cd4779 | errors=[{'type': 'value_error', 'loc': ('body', 'file'), 'msg': "Value error, Expected UploadFile, received: <class 'str'>", 'input': 'Ã\x16Ë\x85È{TÀÈswxü\x93$öÇK\x922\x88õý½º', 'ctx': {'error': ValueError("Expected UploadFile, received: <class 'str'>")}}]
+2026-09-07 14:33:00,025 | INFO | app.middleware | Request completed | request_id=req_b3d8a4cd4779 | status=422 | duration=0.003s
+2026-09-07 14:33:01,079 | INFO | app.middleware | Request started | request_id=req_f391c44d6a5e | method=POST | path=/video/process
+2026-09-07 14:33:01,081 | WARNING | app.main | Request validation failed | request_id=req_f391c44d6a5e | errors=[{'type': 'value_error', 'loc': ('body', 'file'), 'msg': "Value error, Expected UploadFile, received: <class 'str'>", 'input': 'Ã\x16Ë\x85È{TÀÈswxü\x93$öÇK\x922\x88õý½º', 'ctx': {'error': ValueError("Expected UploadFile, received: <class 'str'>")}}]
+2026-09-07 14:33:01,081 | INFO | app.middleware | Request completed | request_id=req_f391c44d6a5e | status=422 | duration=0.002s
+2026-09-07 14:33:09,639 | INFO | app.middleware | Request started | request_id=req_aa36a8e01c00 | method=POST | path=/video/process
+2026-09-07 14:33:09,849 | INFO | app.routes.video | Video upload received | request_id=req_aa36a8e01c00 | job_id=job_0fddec8c4eab
+2026-09-07 14:33:09,905 | INFO | app.routes.video | Video accepted for processing | request_id=req_aa36a8e01c00 | job_id=job_0fddec8c4eab
+2026-09-07 14:33:09,905 | INFO | app.middleware | Request completed | request_id=req_aa36a8e01c00 | status=200 | duration=0.266s
+2026-09-07 14:33:09,906 | INFO | app.services.video_processor | Job started | job_id=job_0fddec8c4eab | request_id=req_aa36a8e01c00
+2026-09-07 14:33:23,105 | INFO | app.services.video_processor | Processing completed | job_id=job_b6ca288b5024 | request_id=req_e7f904efbd50 | frames=667/667 | duration=86.268s
+2026-09-07 14:33:23,125 | INFO | app.routes.video | Job finished successfully | job_id=job_b6ca288b5024 | request_id=req_e7f904efbd50
+2026-09-07 14:33:48,641 | INFO | app.middleware | Request started | request_id=req_17ad08f911a6 | method=POST | path=/video/process
+2026-09-07 14:33:48,669 | INFO | app.routes.video | Video upload received | request_id=req_17ad08f911a6 | job_id=job_b706841ec8c7
+2026-09-07 14:33:48,676 | INFO | app.routes.video | Video accepted for processing | request_id=req_17ad08f911a6 | job_id=job_b706841ec8c7
+2026-09-07 14:33:48,676 | INFO | app.middleware | Request completed | request_id=req_17ad08f911a6 | status=200 | duration=0.035s
+2026-09-07 14:33:48,679 | INFO | app.services.video_processor | Job started | job_id=job_b706841ec8c7 | request_id=req_17ad08f911a6
+2026-09-07 14:34:22,885 | INFO | app.services.video_processor | Processing completed | job_id=job_b706841ec8c7 | request_id=req_17ad08f911a6 | frames=188/188 | duration=34.208s
+2026-09-07 14:34:22,885 | INFO | app.routes.video | Job finished successfully | job_id=job_b706841ec8c7 | request_id=req_17ad08f911a6
+2026-09-07 14:34:57,539 | INFO | app.services.video_processor | Processing completed | job_id=job_0fddec8c4eab | request_id=req_aa36a8e01c00 | frames=667/667 | duration=107.633s
+2026-09-07 14:34:57,557 | INFO | app.routes.video | Job finished successfully | job_id=job_0fddec8c4eab | request_id=req_aa36a8e01c00
+
