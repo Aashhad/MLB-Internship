@@ -1,4 +1,4 @@
-# Day-13: Object Detection using YOLO11
+# Day-13: Object Detection using YOLO8
 
 ## Project Overview
 
