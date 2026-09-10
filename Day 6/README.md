@@ -28,7 +28,7 @@ During this assignment, I learned:
 - Train-Test Split
 - Feature Scaling using StandardScaler
 - Preventing Data Leakage
-- Preparing data for Machine Learning
+- Preparing data for Machine Learning 
 
 ## 🤖 Machine Learning
 
