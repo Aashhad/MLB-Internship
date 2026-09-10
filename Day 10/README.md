@@ -1,6 +1,6 @@
 # Day 10: Introduction to Deep Learning & Artificial Neural Network
 
-## 📌 Overview
+## 📌 Overview 
 
 Day 10 marks the beginning of **Phase 2: Deep Learning** in my Machine Learning and AI internship.
 
