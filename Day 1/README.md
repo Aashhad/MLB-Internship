@@ -1,4 +1,4 @@
-# 📅 Day 1 - ML Internship
+# 📅 Day 1 - ML Internship 
 
 ## 📖 Overview
 
