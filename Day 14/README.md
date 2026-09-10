@@ -1,6 +1,6 @@
 # Day-14: Image Processing Toolkit using OpenCV
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 This project is developed as part of the **ML Bench Internship - Day 14 Task**. It demonstrates fundamental image processing techniques using the **OpenCV** library in Python. The toolkit allows users to perform multiple image processing operations on an uploaded image and save the processed output.
 
