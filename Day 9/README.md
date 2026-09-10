@@ -22,7 +22,7 @@ The objective of this project is to understand Unsupervised Learning by applying
 - 3D Cluster Visualization
 - Real-World Applications of Clustering
 
----
+--- 
 
 ## Dataset
 
