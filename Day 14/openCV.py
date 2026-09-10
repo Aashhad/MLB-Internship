@@ -4,7 +4,7 @@ import numpy as np
 
 
 
-# # read and image 
+# # read and image  
 # image = cv2.imread("Day 14/sampleImages/car.jpg")
 # cv2.imshow("Car Image",image)
 # cv2.waitKey(0)
