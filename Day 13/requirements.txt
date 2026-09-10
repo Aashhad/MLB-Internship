@@ -1,0 +1,7 @@
+Python
+Ultralytics
+YOLO8
+Gradio
+NumPy
+OpenCV
+Matplotlib
