@@ -14,7 +14,7 @@ The dataset used in this project contains **50 student records** stored in a CSV
 
 It includes student information such as:
 
-- Rank
+- Rank 
 - Roll Number
 - Student Name
 - Mathematics Marks
