@@ -1,4 +1,4 @@
-# Day 30 – Secure AI Processing API
+# Day 30 – Secure AI Processing API 
 
 ## Overview
 
