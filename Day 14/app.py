@@ -2,7 +2,7 @@ import cv2
 import gradio as gr
 import numpy as np
 
-
+ 
 # Image Processing Function
 def process_image(
     image,
