@@ -24,7 +24,7 @@ During this assignment, I learned:
 ## 📊 Data Visualization
 
 - Importance of Data Visualization
-- Introduction to Matplotlib
+- Introduction to Matplotlib 
 - Introduction to Seaborn
 - Line Chart
 - Bar Chart
